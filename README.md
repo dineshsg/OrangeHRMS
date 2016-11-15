@@ -12,11 +12,11 @@ Link : https://github.com/maestrano/orangehrm/
 2. Go and edit following file "orangeHRM/symfony/plugins/orangehrmLeavePlugin/lib/service/AbstractLeaveAllocationService.php"
 3. Find this function "public function createLeaveObjectListForAppliedRange(LeaveParameterObject $leaveAssignmentData)"
 4. Search for "$isWeekend"
-   Commment out this line : //$isWeekend = $this->isWeekend($leaveDate, $leaveAssignmentData);
-	 Add this line instead  : $isWeekend = null;
-   Note : if you want to apply sandwhich rule on Saturday and Sunday.
+   (a). Commment out this line : //$isWeekend = $this->isWeekend($leaveDate, $leaveAssignmentData);
+   (b). Add this line instead  : $isWeekend = null;
+   (c). Note : if you want to apply sandwhich rule on Saturday and Sunday.
 5. Search for "$isHoliday"
-   Commment out this line : //$isHoliday = $this->isHoliday($leaveDate, $leaveAssignmentData);
-	 Add this line instead  : $isHoliday = null;
-   Note : if you want to apply sandwhich rule on National Holiday.
+   (a). Commment out this line : //$isHoliday = $this->isHoliday($leaveDate, $leaveAssignmentData);
+   (b). Add this line instead  : $isHoliday = null;
+   (c). Note : if you want to apply sandwhich rule on National Holiday.
 6. Thank you. (If any queries : dineshsgaddi(at)gmail(dot)com )
