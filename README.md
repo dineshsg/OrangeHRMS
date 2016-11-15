@@ -1,4 +1,4 @@
-# orangehrm
+# OrangeHRMS
 Customization of orangeHRMS for sandwhich leave pattern
 
 This is for deducting leaves (Saturday & Sunday | National Holiday) which comes under sandwhich rule.
